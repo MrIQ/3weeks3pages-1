@@ -19,6 +19,9 @@ header {
     vertical-align: bottom;
     margin-right: 5px;
     border: none;
+    border-radius:2px;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
   }
 
   .buttons {
@@ -159,6 +162,12 @@ article {
   }
 }
 
+.h-divider {
+  border-bottom: 1px solid #555555;
+  width: 50px;
+  margin: 50px auto;
+}
+
 h1 {
   font-size: 3em;
   text-align: center;
@@ -166,6 +175,20 @@ h1 {
 
 .intro {
   background-color: #2d2d2d;
+  margin-top: -10px;
+  padding: 20px;
+  img {
+    background-color: #2672ae;
+  }
+  button {
+    background-color: white;
+    color: #2672ae;
+  }
+
+  .create {
+    width: 200px;
+    margin: 25px auto;
+  }
 }
 
 .brief {
@@ -176,4 +199,22 @@ h1 {
 
 .mg10 {
   margin: 10px;
+}
+
+.steps {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+
+  .step.left {
+    width: 33%;
+  }
+}
+
+footer {
+  background-color: #2d2d2d;
+  text-align: center;
+  color: #bbbbbb;
+  padding: 10px;
+  font-size: 0.8em;
 }
