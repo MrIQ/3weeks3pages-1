@@ -1,9 +1,11 @@
 @import "compass/reset";
 @import "compass/css3";
 
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 
 header {
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
   background: #2d2d2d;
   height: 54px;
@@ -29,18 +31,6 @@ header {
     vertical-align: bottom;
   }
 
-  /* .branding:before{
-    content: "";
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    background: url(/images/ios_icon.png) no-repeat;
-    background-size: 30px 30px;
-    position: relative;
-    top: 50%;
-    margin-right: 10px;
-  } */
-
   .branding {
     display: inline-block;
     height: 50%;
@@ -54,8 +44,6 @@ header {
       margin-right: 10px;
     }
   }
-
-
 }
 
 input {
@@ -64,6 +52,9 @@ input {
   border: 0;
   height: 50%;
   width: 200px;
+  border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
 }
 
 .clearfix:after {
@@ -82,4 +73,21 @@ input {
 
 .right {
   float: right;
+}
+
+.left {
+  float: left;
+}
+
+.nav {
+  background-color: #4d4d4d;
+  height: 30px;
+  padding-left: 20%;
+  a {
+    color: #d7d7d7;
+    text-decoration: none;
+  }
+  li {
+    margin: 5px 30px 0 0;
+  }
 }
