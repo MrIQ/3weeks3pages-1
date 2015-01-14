@@ -1,2 +1,85 @@
 @import "compass/reset";
 @import "compass/css3";
+
+
+header {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #2d2d2d;
+  height: 54px;
+  color: white;
+
+  button {
+    color: white;
+    background: orange;
+    display: inline-block;
+    height: 60%;
+    vertical-align: bottom;
+    margin-right: 5px;
+    border: none;
+  }
+
+  .buttons {
+    height: 100%;
+    margin-right: 10%;
+  }
+
+  img {
+    margin-left: 5px;
+    vertical-align: bottom;
+  }
+
+  /* .branding:before{
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(/images/ios_icon.png) no-repeat;
+    background-size: 30px 30px;
+    position: relative;
+    top: 50%;
+    margin-right: 10px;
+  } */
+
+  .branding {
+    display: inline-block;
+    height: 50%;
+    margin-left: 20px;
+    font-size: 1.3em;
+    margin-top: 10px;
+    line-height: 26px;
+    img {
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+    }
+  }
+
+
+}
+
+input {
+  padding: 0 0 0 4px;
+  background-color: grey;
+  border: 0;
+  height: 50%;
+  width: 200px;
+}
+
+.clearfix:after {
+  content:"";
+  display:block;
+  clear:both;
+}
+
+.v-divider:before {
+  content: "|";
+  display: inline-block;
+  color: grey;
+  margin: 0 5px;
+
+}
+
+.right {
+  float: right;
+}
