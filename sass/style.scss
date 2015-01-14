@@ -91,3 +91,89 @@ input {
     margin: 5px 30px 0 0;
   }
 }
+
+article {
+  color: #d7d7d7;
+  font-size: 1.1em;
+  p {
+    text-align: center;
+  }
+  button {
+    display: inline-block;
+    font-size: 1.1em;
+    color: white;
+    height: 100%;
+    border: none;
+    padding: 10px;
+    vertical-align: bottom;
+    margin-right: 15px;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+
+
+    img {
+      margin-right: 20px;
+    }
+  }
+
+}
+
+
+.hero {
+  padding-top: 100px;
+  background-image: url(/images/background.jpg);
+}
+
+.hills {
+  width: 550px;
+  height: 330px;
+  margin: 10px auto;
+  position: relative;
+  .left {
+    position: absolute;
+    bottom: 0;
+    left: -55px;
+  }
+  .right {
+    position: absolute;
+    bottom: 0;
+    left: 60%;
+  }
+}
+
+.creation {
+  text-align: center;
+  margin: 50px auto;
+  height: 60px;
+
+  button.highlight {
+    background-color: #2672ae;
+    font-size: 1.5em;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  button.transparent {
+    background-color:rgba(255,0,0,0);
+    border: 1px solid white;
+  }
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+.intro {
+  background-color: #2d2d2d;
+}
+
+.brief {
+  width: 40%;
+  margin: 20px auto;
+  line-height: 1.5em;
+}
+
+.mg10 {
+  margin: 10px;
+}
