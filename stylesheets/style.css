@@ -198,7 +198,7 @@ article button img {
 /* line 126, ../sass/style.scss */
 .hero {
   padding-top: 100px;
-  background-image: url(/images/background.jpg);
+  background-image: url(../images/background.jpg);
 }
 
 /* line 131, ../sass/style.scss */
